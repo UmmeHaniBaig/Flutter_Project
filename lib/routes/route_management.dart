@@ -1,3 +1,4 @@
+import 'package:project_nastp/routes/app_routes.dart';
 import 'package:flutter/material.dart';
 import '../login_screen.dart';
 import '../signup_screen.dart';
@@ -20,12 +21,7 @@ class RouteManagement {
       case AppRoutes.profile:
         return MaterialPageRoute(builder: (_) => const UserProfileCard());
 
-      case AppRoutes.cart:
-        return MaterialPageRoute(builder: (_) => const CartScreen());
-
-      case AppRoutes.detail:
-        final food = settings.arguments as Map<String, dynamic>;
-        return MaterialPageRoute(builder: (_) => DetailScreen(food: food));
+      
 
       default:
         return MaterialPageRoute(
