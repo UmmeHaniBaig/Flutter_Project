@@ -1,11 +1,9 @@
 import 'package:flutter/material.dart';
-import 'app_routes.dart';
 import '../login_screen.dart';
 import '../signup_screen.dart';
 import '../home_screen.dart';
 import '../UserProfile_card.dart';
-import '../cart_screen.dart';
-import '../detail_screen.dart';
+
 
 class RouteManagement {
   static Route<dynamic> generateRoute(RouteSettings settings) {
