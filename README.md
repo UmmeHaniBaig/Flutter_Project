@@ -1,17 +1,19 @@
-# project_nastp
+# Food_App (Flutter)
 
-A new Flutter project.
+A simple food ordering demo UI built with core Flutter layout widgets —
+no external UI packages.
 
-## Getting Started
+## Pages
+1. **Login** (`lib/login_screen.dart`) — StatefulWidget, email + password fields
+2. **Signup** (`lib/signup_screen.dart`) — StatefulWidget, name + email + password fields
+3. **Home** (`lib/home_screen.dart`) — StatelessWidget, static food list with images
+4. **Cart** (`lib/cart_screen.dart`) — StatefulWidget, shared cart list, remove items
+5. **Profile** (`lib/UserProfile_card.dart`) — StatelessWidget, user info + stats
 
-This project is a starting point for a Flutter application.
+## Run it
+```bash
+flutter pub get
+flutter run
+```
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Structure
