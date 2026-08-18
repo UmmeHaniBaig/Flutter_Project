@@ -1,5 +1,4 @@
-/// All user-facing text in one place so copy can be changed without
-/// hunting through every screen file.
+
 class AppStrings {
   static const appName = "Foodie";
 
