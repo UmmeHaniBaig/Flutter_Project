@@ -1,39 +1,40 @@
+/// All user-facing text in one place so copy can be changed without
+/// hunting through every screen file.
 class AppStrings {
-  // ---- App name ----
-  static const String appName = 'Food App';
+  static const appName = "Foodie";
 
-  // ---- Login page ----
-  static const String loginTitle = 'Welcome Back';
-  static const String emailLabel = 'Email';
-  static const String emailHint = 'Enter Email';
-  static const String passwordLabel = 'Password';
-  static const String passwordHint = 'Enter your password';
-  static const String loginButton = 'Login';
-  static const String noAccountPrompt = "Don't have an account? Sign up";
+  // Onboarding / auth
+  static const enjoyYourFood = "Enjoy\nYour Food";
+  static const getStarted = "Get Started";
+  static const login = "Login";
+  static const signup = "Sign Up";
+  static const email = "Email";
+  static const password = "Password";
+  static const fullName = "Full Name";
+  static const phone = "Phone Number";
+  static const confirmPassword = "Confirm Password";
+  static const dontHaveAccount = "Don't have an account? ";
+  static const alreadyHaveAccount = "Already have an account? ";
 
-  // ---- Signup page ----
-  static const String signupTitle = 'Sign Up';
-  static const String fullNameLabel = 'Full Name';
-  static const String fullNameHint = 'Enter your full name';
-  static const String createAccountButton = 'Create Account';
+  // Home
+  static const menu = "Menu";
+  static const search = "Search";
+  static const promotions = "Promotions";
+  static const popular = "Popular";
+  static const todaysOffer = "Today's Offer";
+  static const offerText = "Free box of Fries on all orders above \$150";
 
-  // ---- Home page ----
-  static const String findGreatDeals = 'Find great food deals';
-  static const String addButton = 'Add';
-  static const String addedToCart = 'Added to cart';
+  // Cart / checkout
+  static const itemsInCart = "Items in cart";
+  static const specialInstructions = "Special Instructions";
+  static const typeHere = "Type here....";
+  static const total = "Total:";
+  static const checkout = "Check out";
+  static const backToMenu = "Back to menu";
 
-  // ---- Cart page ----
-  static const String myCart = 'My Cart';
-  static const String cartEmpty = 'Your cart is empty';
-  static const String subtotal = 'Subtotal';
-  static const String total = 'Total';
-  static const String checkout = 'Checkout';
-
-  // ---- Profile page ----
-  static const String profileTitle = 'Profile';
-  static const String userName = 'Hani Baig';
-  static const String userRole = 'Flutter developer';
-  static const String posts = 'Posts';
-  static const String followers = 'Followers';
-  static const String following = 'Following';
+  // Profile
+  static const darkMode = "Dark Mode";
+  static const profileDetails = "Profile details";
+  static const settings = "Settings";
+  static const logout = "Log out";
 }
