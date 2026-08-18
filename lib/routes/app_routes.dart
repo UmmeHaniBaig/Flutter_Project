@@ -1,7 +1,9 @@
+
 class AppRoutes {
-  static const String login = '/login';
-  static const String signup = '/signup';
-  static const String home = '/home';
-  static const String profile = '/profile';
-  
+  static const login = '/login';
+  static const signup = '/signup';
+  static const home = '/home';
+  static const productDetail = '/product-detail';
+  static const cart = '/cart';
+  static const profile = '/profile';
 }
