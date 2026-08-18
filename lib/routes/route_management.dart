@@ -1,10 +1,8 @@
-import 'package:project_nastp/routes/app_routes.dart';
 import 'package:flutter/material.dart';
+import 'app_routes.dart';
 import '../login_screen.dart';
 import '../signup_screen.dart';
 import '../home_screen.dart';
-import '../UserProfile_card.dart';
-
 
 class RouteManagement {
   static Route<dynamic> generateRoute(RouteSettings settings) {
@@ -17,11 +15,6 @@ class RouteManagement {
 
       case AppRoutes.home:
         return MaterialPageRoute(builder: (_) => const HomeScreen());
-
-      case AppRoutes.profile:
-        return MaterialPageRoute(builder: (_) => const UserProfileCard());
-
-      
 
       default:
         return MaterialPageRoute(
